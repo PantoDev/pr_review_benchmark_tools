@@ -1,0 +1,18 @@
+## Suggestions
+
+{% for s in suggestions %}
+### Suggestion Id: {{ s.id }}
+
+#### Suggestion text:
+{{ s.suggestion }}
+
+#### Code Diff where Suggestion made:
+```diff
+{{ s.code_diff }}
+```
+
+---- END OF SUGGESTION ID {{ s.id }} ----
+{% endfor %}
+
+
+--- END ---

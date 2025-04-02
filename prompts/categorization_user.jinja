@@ -1,0 +1,16 @@
+## Suggestions
+
+{% for s in suggestions %}
+### Suggestion Id: {{ s.id }}
+#### Suggestion:
+{{ s.suggestion }}
+
+#### Code Diff:
+```diff
+{{ s.code_diff }}
+```
+---
+{% endfor %}
+
+
+--- END ---

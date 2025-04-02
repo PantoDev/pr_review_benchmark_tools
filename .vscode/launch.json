@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "server",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "script",
+            "args": [
+
+                "--pr_url",
+                "https://github.com/microsoft/vscode/pull/231178",
+                // "--file_path",
+                // "pr_records.csv",
+
+                "--output",
+                "csv"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
